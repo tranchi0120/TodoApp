@@ -1,0 +1,24 @@
+.filter {
+  padding: 0 25px;
+  &__checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    &--radio {
+      display: flex;
+      gap: 5px;
+    }
+  }
+  &__input {
+    width: 20px;
+    cursor: pointer;
+  }
+  &__label {
+    font-size: 22px;
+  }
+  &__title {
+    font-size: 25px;
+  }
+}

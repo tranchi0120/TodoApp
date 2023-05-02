@@ -1,0 +1,64 @@
+.noti {
+  position: fixed;
+  inset: 0;
+  background: #e7c0c061;
+  z-index: 10;
+  &__container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    background: rgb(52 30 30 / 53%);
+    transform: translateY(-500%);
+    transition: all 0.5s linear;
+    z-index: 1000;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  &__icon {
+    font-size: 20px;
+  }
+}
+
+.active-noti {
+  transform: translateY(100%);
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  background: #5a5454eb;
+  transition: all 0.5s linear;
+  z-index: 1000;
+  position: absolute;
+  left: 29%;
+  top: 20%;
+}
+
+.btn-yes {
+  background: #007bff;
+  color: #ffffff;
+}
+
+.btn-no {
+  background: rgba(255, 0, 0, 0.808);
+  color: #ffffff;
+}
